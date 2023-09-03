@@ -1,0 +1,118 @@
+
+#search-bar{
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 0;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFTfs18WE0N3xiCYNPGzAry6lOx3BTafUUgg&usqp=CAU");
+}
+
+#movie-name{
+    padding: 10px;
+    font-size: 1.4rem;  
+    width: 30%;
+    min-width: 200px;
+    box-shadow: 0px 0px 30px 2px #4d4dff;
+    border-radius: 15px;
+    
+}
+
+#search{
+    background-color: rgb(201, 98, 151);
+    padding: 10px;
+    font-size: 1.4rem;  
+    width: 30%;
+    min-width: 200px;
+    border-radius: 15px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 0px 30px 2px #1afb4a;
+}
+
+#search:hover{
+    background-color: rgb(21, 242, 9);
+    color: #fff;
+    font-weight: bold;
+    
+}
+
+#output{
+    display: flex;
+    flex-direction:raw;
+    width: 100%;
+}
+
+/*append this class for "image-div" and "movie-content-div" */
+.output-content{
+
+    margin:5px;
+    padding:5px;
+    width:50%;
+}
+
+#search-bar{
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 0;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFTfs18WE0N3xiCYNPGzAry6lOx3BTafUUgg&usqp=CAU");
+}
+
+#movie-name{
+    padding: 10px;
+    font-size: 1.4rem;  
+    width: 30%;
+    min-width: 200px;
+    box-shadow: 0px 0px 30px 2px #4d4dff;
+}
+
+#search{
+    padding: 10px;
+    font-size: 1.4rem;  
+    width: 30%;
+    min-width: 200px;
+    cursor: pointer;
+    box-shadow: 0px 0px 30px 2px #4d4dff;
+}
+
+#output{
+    display: flex;
+    flex-direction:raw;
+    width: 100%;
+}
+
+/*append this class for "image-div" and "movie-content-div" */
+.output-content{
+    margin:5px;
+    padding:5px;
+    width:50%;
+}
+
+#movie-poster{
+    padding:10px;
+    margin: 10px;
+    width:70%; 
+}
+
+.favourite1{
+	text-align:center;
+    margin:auto;
+    width: 90%;
+    background-color:#4d4dff;
+    color:white;
+    padding:10px;
+    margin: 10px;
+}
+
+.favourite2{
+	text-align:center;
+    margin:auto;
+    width: 90%;
+    box-shadow: 0px 0px 30px 2px #4d4dff;
+    padding:10px;
+}
+
+#scr{
+    margin-left:0.4rem;
+}
